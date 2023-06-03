@@ -1,6 +1,5 @@
 @import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
 #detailsContainer{
-    /* height: 80vh; */
     background-color: #5552B9;
     color: white;
     flex-wrap: wrap;
@@ -109,4 +108,13 @@ input,#widthSelect{
 }
 #checkboxContainer{
     display: flex;
+}
+#btns{
+    display: flex;
+    justify-content: end;
+}
+@media screen and (max-width : 768px) {
+    #catalogue{
+        width: 100%;
+    }
 }

@@ -8,7 +8,9 @@
     background-color: #fff;
     display: flex;
     flex-wrap: wrap;
-    overflow: scroll;
+    overflow-y: scroll;
+    align-items: center;
+    justify-content: center;
 }
 #popupPageContainer::-webkit-scrollbar{
     display: none;
@@ -51,4 +53,13 @@
 .shape:hover{
     background-color: #5552B9;
     color: #fff;
+}
+@media screen and (max-width : 768px) {
+    #popupPageContainer{
+        position: absolute;
+        left: 20%;
+    }
+    #details{
+        width: 100%;
+    }
 }
