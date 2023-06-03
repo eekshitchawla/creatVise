@@ -1,0 +1,11 @@
+a{
+    color: #5552B9;
+    font-weight: 600;
+    padding-top: 2vh;
+    padding: 1vh;
+    text-decoration: none;
+}
+#popNavbarContainer{
+    padding: 2vh;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+#navbarContainer{
+    background-color: #5552B9;
+    padding: 2vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#linkNav{
+    padding: 1vh;
+    text-decoration: none;
+    color: white;
+}
+
+#creatViseNavbar{
+    font-family: 'Lobster', cursive;
+    height: 5vh;
+}
+
+#acc{
+    width: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.toggle-button {
+    display: inline-block;
+    height: 3vh;
+    width: 5vw;
+    background-color: #282728;
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+.slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30%;
+    height: 100%;
+    background-color: white;
+    border-radius: 15px;
+}
+
+#accImg{
+    height: 3.5vh;
+}
+  
+
+@media screen and (max-width : 786px) {
+    #navbarContainer, a, #acc{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 2vh;
+    }
+    #accImg{
+        padding: 2vh;
+    }
+    .toggle-button{
+        width: 20%;
+    }
+    
+}

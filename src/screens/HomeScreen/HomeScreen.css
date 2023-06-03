@@ -1,0 +1,188 @@
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
+
+#homePageBody{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* left start */
+
+#leftContainer{
+    width: 15%;
+    height: 80vh;
+    margin: 2vh;
+    border-radius: 20px;
+    background-color: #5552B9;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items:center;
+}
+
+#tabs>div{
+    padding: 1vh;
+    width: 100%;
+    font-weight: 600;
+}
+
+#tabs>div:hover, #storage>div:hover{
+    background-color: #fff;
+    color: #5552B9;
+    border-radius: 20px 0 0 20px;
+}
+
+#storage>div{
+    padding: 2vh;
+}
+
+#storageTxt{
+    padding: 2vh;
+}
+
+#storagehr{
+    width: 80%;
+    border: 5px solid lightgrey;
+    border-radius: 30px;
+}
+
+@media screen and (max-width:768px) {
+    #leftContainer{
+        width: 100%;
+    }
+}
+
+/* left end */
+
+/* middle start */
+#middleContainer{
+    width: 65%;
+    margin: 2vh;
+    padding: 1vh 0;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    align-items:center; 
+}
+
+#fileCreating{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.fileCreatingClass{
+    color: #5552B9;
+    border: 3px dashed #5552B9;
+    padding: 2vh 6vh;
+    margin: 2vh;
+    border-radius: 15px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+#partition{
+    padding: 1vh;
+}
+
+#headingFileCreate{
+    font-weight: 700;
+}
+#subTextfile{
+    font-size: 1vh;
+}
+#recentFilesText{
+    text-align: justify;
+    padding-right: 2vh;
+    padding-top: 2vh;
+}
+#recentFilesContainer, #dropdowns, #selectCalender{
+    display: flex;
+    color: #5552B9;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#selectText, #recentFilesHeading{
+    font-weight: 600;
+}
+#selectText, #selectCalender{
+    padding-left: 1vh;
+}
+select{
+    padding: 1vh;
+    background-color: lightgrey;
+    border: none;
+    border-radius: 7px;
+    margin: 1vh;
+}
+.leftPad{
+    padding-right: 2vh;
+}
+#icons{
+    text-align: right;
+}
+#hrline{
+    width: 100%;
+}
+#recenthr{
+    width: 100%;
+    border: 1px solid;
+}
+#lightOpacityArea{
+    width: 100%;
+    opacity: 0.5;
+    text-align: center;
+    justify-content: center;
+}
+#catText{
+color: #5552B9;    text-align: center;
+}
+
+
+@media screen and (max-width:768px) {
+    #middleContainer{
+        width: 100%;
+    }
+}
+
+/* middle end */
+/* right start */
+#rightContainer{
+    width: 15%;
+    padding: 1vh;
+    color: #5552B9;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 3vh;
+}
+
+.rightHeading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+#accessContent{
+    color: lightgray;
+}
+#accesshr{
+    width: 100%;
+}
+
+@media screen and (max-width:768px) {
+    #rightContainer{
+        width: 100%;
+    }
+}
+
+/* right end */

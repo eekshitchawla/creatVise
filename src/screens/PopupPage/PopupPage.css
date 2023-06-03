@@ -1,0 +1,54 @@
+@import url('https://cdn-uicons.flaticon.com/uicons-thin-straight/css/uicons-thin-straight.css');
+
+#popupPageContainer{
+    height: 70vh;
+    width: 60vw;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: scroll;
+}
+#popupPageContainer::-webkit-scrollbar{
+    display: none;
+}
+#catalogue{
+    width: 65%;
+}
+#details{
+    width: 30%;
+    padding: 3vh;
+    border-radius: 20px;
+}
+#pageContent{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cardNavbar{
+    padding: 2vh;
+    margin: 1vh;
+    width: 15%;
+    font-size: 2vh;
+    color: #5552B9;
+}
+.title{
+    font-weight: 600;
+    font-size:small;
+}
+.dimension{
+    font-size: small;
+}
+.shape{
+    text-align: center;
+    height: 10vh;
+    border: 2px solid #5552B9;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.shape:hover{
+    background-color: #5552B9;
+    color: #fff;
+}

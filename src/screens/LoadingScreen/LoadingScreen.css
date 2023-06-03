@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+#loadingScreenContainer{
+    height: 100vh;
+    background-color: #5552B9;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#none{
+    display: none;
+}
+
+#headingLoadingScreen{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#creatViseHeading{
+    font-family: 'Lobster', cursive;
+    font-size: 5vh;
+}
+
+#zoneHeading{
+    font-size: 4.4vh;
+    font-weight: 200;
+}
+
+#loadingBar{
+    width: 30%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 1vh;
+}

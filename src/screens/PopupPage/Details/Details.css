@@ -1,0 +1,112 @@
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
+#detailsContainer{
+    /* height: 80vh; */
+    background-color: #5552B9;
+    color: white;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    padding: 1vh;
+}
+
+#detailsHeading{
+    padding-left: 2vh;
+}
+
+label{
+    padding: 2vh;
+}
+input,#widthSelect{
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 1vh;
+    margin: 1vh;
+    outline: none;
+    color: white;
+    border-radius: 5px;
+}
+
+#projName{
+    border: none;
+    border-bottom: 2px solid white;
+    width: 90%;
+}
+
+#widthSelect{
+    width: 40%;
+}
+
+#widthSelect{
+    width: 70%;
+}
+
+#widthInputContainer{
+    display: flex;
+    justify-content: space-between;
+}
+#inputWidth, #heightInput{
+    width: 20%;
+}
+
+#heightNorient{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#heightContainer{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+#heightHeading{
+    width: 100%;
+}
+#heightInput{
+    width: 90%;
+}
+#orientContainer{
+    width: 55%;
+}
+#orientHeading{
+    width: 100%;
+}
+#orientIcons{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1vh;
+}
+#oreint{
+    padding: 1vh;
+    margin: 0 1vh;
+    color: white;
+    border: 1px solid white;
+    background-color: transparent;
+    outline: none;
+    border-radius: 5px;
+}
+#oreint:hover{
+    background-color: white;
+    color: #5552B9;
+}
+#colorModeInputs{
+    width: 100%;
+}
+#colorName{
+    width:50%
+}
+#colorBit{
+    width: 30%;
+}
+#colorsContainers{
+    display: flex;
+    align-items: center;
+}
+#color{
+    height: 3vh;
+    width: 3vh;
+    background-color: #fff;
+}
+#checkboxContainer{
+    display: flex;
+}
