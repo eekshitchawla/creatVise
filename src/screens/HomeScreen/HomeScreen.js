@@ -38,7 +38,7 @@ const HomeScreen = () => {
                             }>{
                                     close => (
                                         <div id="popupContainer">
-                                            <PopupPage />
+                                            <PopupPage close={close} />
                                         </div>
                                     )
                                 }

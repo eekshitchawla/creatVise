@@ -1,22 +1,22 @@
 @import url('https://cdn-uicons.flaticon.com/uicons-thin-straight/css/uicons-thin-straight.css');
 
 #popupPageContainer{
-    height: 70vh;
-    width: 60vw;
+    height: 90vh;
+    width: 70vw;
     border: 1px solid black;
     border-radius: 10px;
     background-color: #fff;
     display: flex;
     flex-wrap: wrap;
     overflow-y: scroll;
-    align-items: center;
-    justify-content: center;
+    align-items: start;
+    justify-content: start;
 }
 #popupPageContainer::-webkit-scrollbar{
     display: none;
 }
 #catalogue{
-    width: 65%;
+    width: 60%;
 }
 #details{
     width: 30%;
@@ -54,6 +54,23 @@
     background-color: #5552B9;
     color: #fff;
 }
+
+#closeBtnPopup{
+    color: #5552B9;
+    background-color: white;
+    padding: 1vh;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    margin: 1vh;
+}
+
+#closeBtnPopup:hover{
+    color: white;
+    background-color: red;
+
+}
+
 @media screen and (max-width : 768px) {
     #popupPageContainer{
         position: absolute;

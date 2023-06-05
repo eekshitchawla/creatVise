@@ -144,6 +144,16 @@ select{
 color: #5552B9;    text-align: center;
 }
 
+#popupContainer{
+    top: 5%;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 999;
+    text-align: -webkit-center;
+}
+
 
 @media screen and (max-width:768px) {
     #middleContainer{

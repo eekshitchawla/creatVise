@@ -1,4 +1,4 @@
-a{
+#navbarTile{
     color: #5552B9;
     font-weight: 600;
     padding-top: 2vh;
@@ -6,6 +6,9 @@ a{
     text-decoration: none;
 }
 #popNavbarContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 2vh;
     flex-wrap: wrap;
 }

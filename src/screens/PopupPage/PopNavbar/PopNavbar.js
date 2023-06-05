@@ -1,16 +1,23 @@
 import React from "react";
 import './PopNavbar.css'
 
-const PopNavbar = () => {
+const PopNavbar = ({ setMenuClicked }) => {
     return <>
         <div id="popNavbarContainer">
-            <a href="">Saved Presets</a>
-            <a href="">Social Media</a>
-            <a href="">Print</a>
-            <a href="">Photo</a>
-            <a href="">Web</a>
-            <a href="">Mobile</a>
-            <a href="">Art&Illustration</a>
+            <div id="navbarTile" onClick={
+                () => {
+                    setMenuClicked('print')
+                }
+            }>Print</div>
+            <div id="navbarTile" onClick={
+                () => {
+                    setMenuClicked('social')
+                }
+            }>Social Media</div>
+            <div id="navbarTile" > Photo</div>
+            <div id="navbarTile" > Web</div>
+            <div id="navbarTile" > Mobile</div>
+            <div id="navbarTile" > Art&Illustration</div>
         </div>
     </>;
 };
