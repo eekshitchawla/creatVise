@@ -4,6 +4,7 @@ import './HomeScreen.css'
 import cat from '../../assets/cat.png'
 import Popup from 'reactjs-popup';
 import PopupPage from "../PopupPage/PopupPage";
+import Access from "../Access/Access";
 
 const HomeScreen = () => {
     return <>
@@ -95,10 +96,23 @@ const HomeScreen = () => {
             </div>
             <div id="rightContainer">
                 <div className="rightContent">
-                    <div className="rightHeading">
-                        Who has Access
-                        <i className="fi fi-rr-plus"></i>
-                    </div>
+
+                    <Popup trigger={
+                        <div className="rightHeading">
+                            Who has Access
+                            <i className="fi fi-rr-plus"></i>
+                        </div>
+                    }>{
+                            close => (
+                                <div id="popupContainer">
+                                    <Access close={close} />
+                                </div>
+                            )
+                        }
+                    </Popup>
+
+
+
                     <div id="accessContent">Select Files to View</div>
                 </div>
                 <hr id="accesshr" />
